@@ -1,0 +1,234 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    background: #151515;
+}
+.header__nav{
+    background: #282828;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__top-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__nav-list{
+    display: flex;
+    gap: 30px;
+}
+.header__nav-link{
+    color: #FFF;
+font-family: 'MB';
+font-size: 20px;
+}
+.header__top-right{
+    display: flex;
+    gap: 25px;
+}
+.header__content{
+    background: url(../images/header.jpg) no-repeat center /cover;
+    height: 700px;
+}
+.header__logo{
+    padding: 6px 0;
+}
+.header__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 38px;
+}
+.header__content-h2{
+    color: #FFF;
+font-family: 'PR';
+font-size: 100px;
+}
+.header__content-link{
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    justify-content: center;
+}
+.header__content-link-h3{
+    color: #171718;
+    font-family: 'MM';
+   font-size: 20px;
+   text-transform: uppercase;
+   padding: 13px 0 13px 14px;
+}
+.header__content-img{
+    display: flex;
+    align-items: center;
+    padding-right: 14px;
+}
+.main__block-one{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.main__block-one-text{
+    display: flex;
+    align-items: center;
+    width: 538px;
+    color: #FFF;
+font-family: 'MM';
+font-size: 22px;
+line-height: normal;
+}
+.main__block-two{
+    display: flex;
+    gap: 87px;
+    margin-top: 50px;
+}
+.main__block-two-text{
+    display: flex;
+    align-items: center;
+    width: 540px;
+    color: #FFF;
+font-family: 'MM';
+font-size: 22px;
+line-height: normal;
+}
+.main__block-three-text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+    color: #FFF;
+font-family: 'MM';
+font-size: 20px;
+line-height: normal;
+text-align: right;
+}
+.main__block-three-text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+    color: #FFF;
+font-family: 'MM';
+font-size: 20px;
+line-height: normal;
+}
+.main__block-three{
+    display: flex;
+    margin-top: 50px;
+    gap: 13px;
+}
+.main__block-bf-af::before{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;  
+}
+.main__block-bf-af::after{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;    
+}
+.main__block-bf-af{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.main__block-four-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    background: #FFF; 
+    width: 255px;
+    height: 312px;
+}
+.main__block-four-oneh2{
+    color: #000;
+font-family: 'MB';
+font-size: 20px;
+}
+.main__block-four-oneimg{
+    margin-top: 10px;
+}
+.main__block-four-onetext{
+    color: #000;
+font-family: 'MR';
+font-size: 14px;
+text-transform: uppercase;
+margin-top: 10px;
+}
+.main__viev{
+    background: #151515;
+    width: 161px;
+    height: 34px;
+    margin-top: 20px;
+}
+.main__block-four-oneh3{
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 7px 0;
+}
+.main__block-four{
+    margin-top: 80px;
+    gap: 30px;
+    display: flex;
+    margin-bottom: 55px;
+}
+.footer__nav{
+    height: 215px;
+    background: #282828;
+box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.footer__nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__box-one{
+    padding: 81px 0;
+}
+.footer__box-two-list{
+    display: flex;
+    gap: 30px;
+}
+.footer__list-li{
+    color: #FFF;
+text-align: right;
+font-family: 'MB';
+font-size: 20px;
+}
+.footer__visa-master{
+   display: flex;
+   gap: 30px; 
+}
